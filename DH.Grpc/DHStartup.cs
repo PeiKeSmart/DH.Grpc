@@ -12,7 +12,7 @@ namespace DH.Grpc;
 /// <summary>
 /// 表示应用程序启动时配置Grpc的对象
 /// </summary>
-public class DHStartup : IDHStartup
+public class DHStartup : IPekStartup
 {
     /// <summary>
     /// 配置添加的中间件的使用
@@ -100,6 +100,14 @@ public class DHStartup : IDHStartup
     /// </summary>
     /// <param name="application"></param>
     public void AfterAuth(IApplicationBuilder application)
+    {
+
+    }
+
+    /// <summary>
+    /// 处理数据
+    /// </summary>
+    public void ProcessData()
     {
 
     }
