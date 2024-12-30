@@ -48,7 +48,7 @@
     </PackageReference>
     <PackageReference Include="Grpc.AspNetCore.Server" Version="2.67.0" />
     <PackageReference Include="Grpc.AspNetCore.Web" Version="2.67.0" />
-    <PackageReference Include="Pek.AspNetCore" Version="4.0.2024.1226-beta1145" />
+    <PackageReference Include="Pek.AspNetCore" Version="4.0.2024.1230-beta0830" />
   </ItemGroup>
 
   <ItemGroup>
