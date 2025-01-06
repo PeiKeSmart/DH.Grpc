@@ -11,7 +11,7 @@ public class GRPCInterceptor : Interceptor
     {
         XTrace.Log.Debug($"[GRPCInterceptor.UnaryServerHandler]starting call");
 
-        var response = await base.UnaryServerHandler(request, context, continuation);
+        var response = await base.UnaryServerHandler(request, context, continuation).ConfigureAwait(false);
 
         XTrace.Log.Debug($"[GRPCInterceptor.UnaryServerHandler]finished call");
 
