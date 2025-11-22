@@ -1,6 +1,6 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
-    <TargetFrameworks>net8.0;net9.0</TargetFrameworks>
+    <TargetFrameworks>net8.0;net9.0;net10.0</TargetFrameworks>
     <OutputType>Library</OutputType>
     <RootNamespace>DH.Grpc</RootNamespace>
     <AssemblyName>DH.Grpc</AssemblyName>
@@ -8,7 +8,7 @@
     <Description>DH框架Grpc扩展类</Description>
     <Company>湖北登灏科技有限公司</Company>
     <Copyright>©2020-2024 湖北登灏科技有限公司</Copyright>
-    <VersionPrefix>4.01</VersionPrefix>
+    <VersionPrefix>4.16</VersionPrefix>
     <VersionSuffix>$([System.DateTime]::Now.ToString(`yyyy.MMdd`))</VersionSuffix>
     <Version>$(VersionPrefix).$(VersionSuffix)</Version>
     <FileVersion>$(Version)</FileVersion>
@@ -48,9 +48,9 @@
       <PrivateAssets>all</PrivateAssets>
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
     </PackageReference>
-    <PackageReference Include="Grpc.AspNetCore.Server" Version="2.67.0" />
-    <PackageReference Include="Grpc.AspNetCore.Web" Version="2.67.0" />
-    <PackageReference Include="Pek.AspNetCore" Version="4.0.2025.110-beta0311" />
+    <PackageReference Include="Grpc.AspNetCore.Server" Version="2.71.0" />
+    <PackageReference Include="Grpc.AspNetCore.Web" Version="2.71.0" />
+    <PackageReference Include="Pek.AspNetCore" Version="4.16.2025.1120-beta1022" />
   </ItemGroup>
 
   <ItemGroup>
